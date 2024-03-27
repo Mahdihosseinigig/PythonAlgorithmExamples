@@ -25,3 +25,13 @@
 # average(1,1,1)
 
 ##__________________________________________________##
+
+#Example 6 
+
+def square ():
+    side = int(input('Enter the side size : '))
+    Environment = side * 4;
+    area = side * side ;
+    print("Environment: ",Environment,'area: ',area)
+
+square()
