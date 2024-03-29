@@ -28,10 +28,24 @@
 
 #Example 6 
 
-def square ():
-    side = int(input('Enter the side size : '))
-    Environment = side * 4;
-    area = side * side ;
-    print("Environment: ",Environment,'area: ',area)
+# def square ():
+#     side = int(input('Enter the side size : '))
+#     Environment = side * 4;
+#     area = side * side ;
+#     print("Environment: ",Environment,'area: ',area)
 
-square()
+# square()
+
+##__________________________________________________##
+
+#Example 7
+
+# pi = 3.14
+# r = 3
+# areaofcircle  = int(pi*(r**2)) 
+
+# areaofsquare = int(((r*2)*(r*2))/2) 
+
+# print(areaofcircle - areaofsquare)
+
+##__________________________________________________##
