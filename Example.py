@@ -49,3 +49,19 @@
 # print(areaofcircle - areaofsquare)
 
 ##__________________________________________________##
+
+#Example 8
+
+# def print_digit_count():
+#     number = int(input('Enter your namber : '))
+#     count = 0
+#     while number > 0:
+#         number //= 10 
+#         count += 1
+#     print(count)
+
+# print_digit_count()
+
+##__________________________________________________##
+
+#Example 9
