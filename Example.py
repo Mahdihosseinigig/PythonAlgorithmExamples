@@ -65,3 +65,12 @@
 ##__________________________________________________##
 
 #Example 9
+
+def calculate_final_price(cost_price, profit_percentage):
+    if profit_percentage > 1:
+        profit_percentage /= 100
+
+    final_price = cost_price * (1 + profit_percentage)
+    return int(final_price)
+
+print(calculate_final_price(100,20))
