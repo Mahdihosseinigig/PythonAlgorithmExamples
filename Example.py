@@ -66,11 +66,27 @@
 
 #Example 9
 
-def calculate_final_price(cost_price, profit_percentage):
-    if profit_percentage > 1:
-        profit_percentage /= 100
+# def calculate_final_price(cost_price, profit_percentage):
+#     if profit_percentage > 1:
+#         profit_percentage /= 100
 
-    final_price = cost_price * (1 + profit_percentage)
-    return int(final_price)
+#     final_price = cost_price * (1 + profit_percentage)
+#     return int(final_price)
 
-print(calculate_final_price(100,20))
+# print(calculate_final_price(100,20))
+
+
+##__________________________________________________##
+
+#Example 10
+
+# def convert_kg_lb ():
+#     kg = float(input('Enter your weight : '))
+#     lb = str( round(kg * 2.20462262, 2) + ' lb ')
+#     return lb
+
+# print(convert_kg_lb())
+
+##__________________________________________________##
+
+#Example 1۱
