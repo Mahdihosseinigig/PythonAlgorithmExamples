@@ -81,12 +81,31 @@
 #Example 10
 
 # def convert_kg_lb ():
-#     kg = float(input('Enter your weight : '))
-#     lb = str( round(kg * 2.20462262, 2) + ' lb ')
-#     return lb
+#     kg = float(input('Enter your weight By Kg : '))
+#     lb = kg * 2.20462262 
+#     lbweight = f'{lb:.2f}lb'
+#     return lbweight
 
 # print(convert_kg_lb())
 
+
+
 ##__________________________________________________##
 
-#Example 1۱
+#Example 11
+ 
+# def second ():
+#     h = int(input('Enter hour : '))
+#     h *= 3600
+#     m = int(input('Enter min : '))
+#     m *= 60
+#     s = int(input('Enter secend: '))
+
+#     return h + m + s
+
+
+# print(second())
+
+##__________________________________________________##
+
+#Example 11
